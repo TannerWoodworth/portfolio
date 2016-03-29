@@ -18,6 +18,7 @@ main {
     max-width: 1250px;
 }
 footer{
+    clear: both;
     background-color: #272727;
     color:#666;
     padding:.5rem;

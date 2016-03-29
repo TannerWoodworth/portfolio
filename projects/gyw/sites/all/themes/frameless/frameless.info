@@ -1,0 +1,9 @@
+name = Frameless
+description = A very minimal and almost borderless theme.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/style.css
+scripts[] = js/script.js
+screenshot = screenshot.png
