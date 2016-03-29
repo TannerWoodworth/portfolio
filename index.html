@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanner Woodworth || Front-End Web Developer</title>
+    <meta name="description" content="Tanner Woodworth is a frontend web developer based in Pittsburgh, PA.">
+    <meta name="keywords" content="tanner, woodworth, front-end, front, end, web, developer, pittsburgh, corry, pa">
+    <meta name="author" content="Tanner Woodworth">
+    <!-- Custom Fonts -->
+    <script src="https://use.typekit.net/efn0bxv.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@tannerwoodworth">
+    <meta name="twitter:title" content="Tanner Woodworth || Frontend Web Developer ">
+    <meta name="twitter:description" content="Tanner Woodworth is a frontend web developer based in Pittsburgh, PA.">
+    <meta name="twitter:creator" content="@tannerwoodworth">
+    <meta name="twitter:image:src" content="images/logo.png">
+    <!-- Facebook -->
+    <meta property="og:site_name" content="Tanner Woodworth || Frontend Web Developer" />
+    <meta property="og:description" content="Tanner Woodworth is a frontend web developer based in Pittsburgh, PA." />
+    <meta property="og:url" content="http://tannerwoodworth.com/" />
+    <meta property="og:title" content="Tanner Woodworth" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/logo.png" />
+</head>
+
+<body>
+    <nav class="fixed-nav-bar nav-collapse">
+        <ul>
+            <li><a href="#section_about" onclick="goToAbout(event);">About</a></li>
+            <li><a href="#section_projects" onclick="goToProjects(event);">Projects</a></li>
+            <li><a href="#section_contact" onclick="goToContact(event);">Contact</a></li>
+            <li><a href="docs/WOODWORTH_resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+    <header>
+
+
+    </header>
+    <main>
+        <div id="welcome">
+            <img class="logo" src="img/logo.svg" alt="Tanner Woodworth Front End Developer">
+        </div>
+        <div id="section_about" class="clearfix">
+            <h2 class="section-header">About</h2>
+            <div class="items">
+                <div class="item skill">
+                    <div class="text">
+                        <img class="split" src="img/glasses_01.gif">
+                        <h3>About</h3>
+                        <p>My name is Tanner Woodworth and I am a front-end web developer based in Pittsburgh, PA. I am currently a student at Pittsburgh Technical Institute working on an Associate in Science Degree in Multimedia Technologies with a concentration in Web Design &amp; Development.</p>
+                        <p>I have been working with websites for a little over three years, and freelancing for two years with clients ranging from ad specialties agencies to assited living homes.</p>
+                    </div>
+                    <!-- /TEXT -->
+                </div>
+                <!-- /ITEM SKILL -->
+                <div class="item skill">
+                    <div class="text">
+                        <img class="split" src="img/glasses_02.gif">
+                        <h3>Always Learning</h3>
+                        <p>The web is forever changing, and it is never going to stop. So why should I?</p>
+                        <p>Aside from web, I love to dabble in the wonderful world of iOS development and write the occasional python application.</p>
+                    </div>
+                    <!-- /TEXT -->
+                </div>
+                <!-- /ITEM SKILL -->
+                <div class="item skill">
+                    <div class="text">
+                        <img class="split" src="img/glasses_03.gif">
+                        <h3>Ethos</h3>
+                        <p>I believe that a design can never be too simple and designs can always be improved, no matter what.</p>
+                        <p>Functionality over asthetics, always.</p>
+                    </div>
+                    <!-- /TEXT -->
+                </div>
+                <!-- /ITEM SKILL -->
+            </div>
+            <!-- /ITEMS -->
+        </div>
+        <!-- /ABOUT -->
+        <div id="section_projects" class="clearfix">
+            <h2 class="section-header">Projects</h2>
+            <div class="items clearfix">
+                <div id="bpm" class="item work">
+                    <a href="projects/bpm/index.html" target="_blank">
+                        <div class="overlay">
+                            <div class="btn">Open Website</div>
+                        </div>
+                        <img class="lazy" src="img/bluePaperMedia.jpg" width="575" height="324" alt="BluePaper Media project" />
+                    </a>
+                    <p class="project_title"><a href="projects/bpm/index.html">BluePaper Media</a></p>
+                    <p class="skill_list tight">Design, Markup</p>
+                    <a class="more" id="bpm" href="#bpm" onclick="showBpm()">Learn More</a>
+                    <div id="bpm_lm" class="text info hidden">
+                        <p><span class="highlight">Objective: </span> To sell services of a fictional web development company.</p>
+                        <p><span class="highlight">Highlights: </span>An animated timeline using CSS animations and triggered with JS to show company's process of making websites. Designed with Twitter Bootstrap's framework. The site uses a working PHP-driven form that takes content of the form's fields and concatinates it into an email to send to the company for potential clients to fill out.</p>
+                    </div>
+                </div>
+                <div id="sm" class="item work">
+                    <a href="http://tannerwoodworth.github.io" target="_blank">
+                        <div class="overlay">
+                            <div class="btn">Open Website</div>
+                        </div>
+                        <img class="lazy" src="img/speedyMama.jpg" width="575" height="324" alt="Speedy Mama website screenshot" />
+                    </a>
+                    <p class="project_title"><a href="tannerwoodworth.github.io">SpeedyMama Web Hosting</a></p>
+                    <p class="skill_list tight">Design, Markup</p>
+                    <a class="more" href="#sm" onclick="showSm()">Learn More</a>
+                    <div id="sm_lm" class="text info hidden">
+                        <p><span class="highlight">Objective: </span> Sell services of a fictitious web hosting company.</p>
+                        <p><span class="highlight">Highlights: </span> The site was deployed using Gulp. The plugins included minify all code and optomize images for the web. Custom graphs built with the HighCharts library are used to help illustrate with selling of services. Site styled with LESS, which allows shorthand code to be compiled into a readable CSS file for browsers.</p>
+                    </div>
+                </div>
+                <div id="gyw" class="item work">
+                    <a href="projects/smartup/index.html" target="_blank">
+                        <div class="overlay">
+                            <div class="btn">Open Website</div>
+                        </div>
+                        <img class="lazy" src="img/gyw.jpg" width="575" height="324" alt="Good Year Welt Website Screenshot" />
+                    </a>
+                    <p class="project_title"><a href="projects/gyw">Good Year Welt — Male Fashion Blog</a></p>
+                    <p class="skill_list tight">Markup, Design, CSS</p>
+                    <a class="more" href="#gyw" onclick="showGyw()">Learn More</a>
+                    <div id="gyw_lm" class="text info hidden">
+                        <p><span class="highlight">Objective: </span> Inform users about fashion trends and give style tips.</p>
+                        <p><span class="highlight">Highlights: </span> This project was built using Drupal, an open-source web content management system, to allow administrators and users easily add content. The gray / gold color scheme and spackled texture gives a sense of masculinity. The page structure and style were developed and packaged as a custom Drupal theme, which can be adapted and used by other users.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- / ITEMS -->
+            <div id="section_contact">
+                <h2 class="section-header">Contact</h2>
+                <div class="items">
+                    <div class="item skill">
+                        <div class="text">
+                            <h3>Let's talk</h3>
+                            <p>Whether you're looking to start a project, talk about some web things, or simply have any questions, feel free to contact me using the information below!</p>
+
+                            <p><span class="ctype">e.</span> <a href="mailto:twoodworth2014@gmail.com">twoodworth2014@gmail.com</a> <br />
+                                <span class="ctype">m.</span> (814) 462 5298</p>
+                        </div>
+                        <!-- /TEXT -->
+                    </div>
+                    <!-- /ITEM SKILL -->
+                    <div class="item skill">
+                        <div class="text">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <!-- /TEXT -->
+                    </div>
+                    <!-- /ITEM SKILL -->
+                    <div class="item skill">
+                        <div class="text">
+                            <h3>On the web</h3>
+
+                            <a href="https://twitter.com/tannerwoodworth" target="_blank"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.1 39"><defs><style>.a{fill:#272727;}</style></defs><title>twitter</title><path class="a" d="M48,10.6a18.47,18.47,0,0,1-5.7,1.5,9.65,9.65,0,0,0,4.3-5.4,19.17,19.17,0,0,1-6.3,2.4A9.41,9.41,0,0,0,33.2,6a9.82,9.82,0,0,0-9.8,9.8,7.8,7.8,0,0,0,.3,2.2A27.6,27.6,0,0,1,3.3,7.8,9.94,9.94,0,0,0,2,12.7a9.79,9.79,0,0,0,4.4,8.2,10.07,10.07,0,0,1-4.5-1.2v0.1a9.88,9.88,0,0,0,7.9,9.7,10.9,10.9,0,0,1-2.6.3,13.66,13.66,0,0,1-1.9-.2,9.79,9.79,0,0,0,9.2,6.8A20,20,0,0,1,2.3,40.6a19.27,19.27,0,0,1-2.4-.1A27.66,27.66,0,0,0,15.1,45c18.1,0,28-15,28-28V15.7A19.81,19.81,0,0,0,48,10.6h0Z" transform="translate(0.1 -6)"/></svg></a>
+                            <a href="https://www.facebook.com/tanner.woodworth" target="_blank"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 48"><defs><style>.a{fill:#272727;}</style></defs><title>facebook</title><path class="a" d="M28.5,9H36V0H28.5A10.5,10.5,0,0,0,18,10.5V15H12v9h6V48h9V24h7.5L36,15H27V10.5A1.54,1.54,0,0,1,28.5,9Z" transform="translate(-12)"/></svg></a>
+                            <a href="https://github.com/TannerWoodworth" target="_blank"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 46.83"><defs><style>.a{fill:#272727;}</style></defs><title>github</title><path class="a" d="M24,0.6a24,24,0,0,0-7.6,46.8A1.18,1.18,0,0,0,18,46.2V41.7c-6.7,1.5-8.1-2.8-8.1-2.8-1.1-2.8-2.7-3.5-2.7-3.5-2.2-1.5.2-1.5,0.2-1.5a5.22,5.22,0,0,1,3.7,2.5c2.1,3.7,5.6,2.6,7,2a4.82,4.82,0,0,1,1.5-3.2c-5.3-.6-10.9-2.7-10.9-11.9a8.82,8.82,0,0,1,2.5-6.4,8.93,8.93,0,0,1,.2-6.4s2-.6,6.6,2.5a24.1,24.1,0,0,1,6-.8,24.1,24.1,0,0,1,6,.8c4.6-3.1,6.6-2.5,6.6-2.5a8.48,8.48,0,0,1,.2,6.4,9.44,9.44,0,0,1,2.5,6.4c0,9.2-5.6,11.2-11,11.8,0.9,0.7,1.6,2.2,1.6,4.4v6.6a1.22,1.22,0,0,0,1.6,1.2A23.94,23.94,0,0,0,24,.6h0Z" transform="translate(0 -0.6)"/></svg></a>
+                            <a href="https://www.behance.net/tannerwoodworth" target="_blank"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.04 30.1"><defs><style>.a{fill:#272727;}</style></defs><title>behance</title><path class="a" d="M13.9,9.6a16.11,16.11,0,0,1,3.9.4,9,9,0,0,1,3,1.2,5.74,5.74,0,0,1,1.9,2.2,7.28,7.28,0,0,1,.7,3.5,6.2,6.2,0,0,1-1,3.7,7.28,7.28,0,0,1-3,2.4,7.11,7.11,0,0,1,4.1,2.7,8.1,8.1,0,0,1,1.3,4.7,8,8,0,0,1-.9,3.9A8.68,8.68,0,0,1,21.6,37a9.54,9.54,0,0,1-3.4,1.5,16,16,0,0,1-3.9.5H0V9.6H13.9ZM13.1,21.5a5.22,5.22,0,0,0,2.9-.8A2.88,2.88,0,0,0,17.1,18a2.86,2.86,0,0,0-.4-1.7,3.18,3.18,0,0,0-1-1,3.36,3.36,0,0,0-1.4-.5,9.15,9.15,0,0,0-1.7-.1H6.5v6.9h6.6V21.5Zm0.3,12.6a11,11,0,0,0,1.8-.2,3.39,3.39,0,0,0,1.5-.6,4.26,4.26,0,0,0,1.1-1.2,3.58,3.58,0,0,0,.4-1.9,3.9,3.9,0,0,0-1.3-3.3,6,6,0,0,0-3.4-1h-7V34l6.9,0.1h0Z" transform="translate(0 -9.6)"/><path class="a" d="M34,34a5,5,0,0,0,3.8,1.3,5.38,5.38,0,0,0,3.1-.9,3.5,3.5,0,0,0,1.6-1.9h5.2A9.59,9.59,0,0,1,43.9,38a11.27,11.27,0,0,1-6.2,1.7,13.44,13.44,0,0,1-4.6-.8,9.29,9.29,0,0,1-3.5-2.3A10.89,10.89,0,0,1,27.4,33a13.44,13.44,0,0,1-.8-4.6,13.3,13.3,0,0,1,.8-4.5,10.89,10.89,0,0,1,2.2-3.6,9.9,9.9,0,0,1,3.5-2.4,10.63,10.63,0,0,1,4.5-.9,9.45,9.45,0,0,1,4.8,1.1,9,9,0,0,1,3.3,2.8A12.9,12.9,0,0,1,47.6,25a15.11,15.11,0,0,1,.4,4.8H32.5A5.76,5.76,0,0,0,34,34h0Zm6.7-11.2a4.31,4.31,0,0,0-3.3-1.2,5.21,5.21,0,0,0-2.3.5,4.43,4.43,0,0,0-1.5,1.2,5.48,5.48,0,0,0-.8,1.5,8.87,8.87,0,0,0-.3,1.4h9.6a5.6,5.6,0,0,0-1.4-3.4h0Z" transform="translate(0 -9.6)"/><path class="a" d="M31.3,12h12v2.9h-12V12Z" transform="translate(0 -9.6)"/></svg></a>
+                    </div> <!-- /TEXT -->
+                </div> <!-- /ITEM SKILL -->
+            </div> <!-- /ITEMS -->
+    </main>
+    <footer>
+        <p>Copyright &copy; 2016 Tanner Woodworth</p>
+    </footer>
+</body>
+<!-- jQuery -->
+<script src="js/jquery_1-1-2.min.js"></script>
+<script src="js/script.js"></script>
+<!-- Scrolling -->
+<script>
+    function goToAbout(event) {
+        if (event.preventDefault) {
+            event.preventDefault();
+        } else {
+            event.returnValue = false;
+        }
+        $('html,body').animate({
+            scrollTop: $("#section_about").offset().top
+        }, 500);
+    } // gotoAbout
+    function goToProjects(event) {
+        if (event.preventDefault) {
+            event.preventDefault();
+        } else {
+            event.returnValue = false;
+        }
+        $('html,body').animate({
+            scrollTop: $("#section_projects").offset().top
+        }, 500);
+    } // gotoProjects
+    function goToContact(event) {
+        if (event.preventDefault) {
+            event.preventDefault();
+        } else {
+            event.returnValue = false;
+        }
+        $('html,body').animate({
+            scrollTop: $("#section_contact").offset().top
+        }, 500);
+    } // gotoContact
+</script>
+<!-- GOOGLE ANALYTICS -->
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-70782562-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</html>
