@@ -18,11 +18,13 @@ main {
     max-width: 1250px;
 }
 footer{
-    clear: both;
     background-color: #272727;
     color:#666;
     padding:.5rem;
     text-align: center;
+
+    position: relative;
+    bottom: 0;
 }
 .item {
     float: left;
@@ -69,9 +71,9 @@ nav li:last-child {
 }
 
 nav li a:hover {
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     color: #ff7c1a;
 }
 
@@ -130,31 +132,32 @@ footer p{
     color:#979797;
 }
 #section_contact a{
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     color:#ff7c1a;
     text-decoration: none;
 }
 #section_contact a:hover{
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     color:#D46716;
 }
 a{
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     color:#ff7c1a;
     text-decoration: none;
 }
 
-a:hover{
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+a:hover {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     color:#D46716;
+    fill:#D46716;
 }
 
 
@@ -193,9 +196,9 @@ a:hover{
 }
 
 .item.work a:hover .overlay {
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     opacity: .7;
     background-color: #ff7c1a;
     transition: background-color 1.1s ease;
